@@ -1,0 +1,14 @@
+LOAD {dat_file_name}
+
+PANE
+
+OPER
+VISC {Re}
+ITER 1500
+PACC
+{polar_file_name}
+
+A {alpha}
+PACC
+
+QUIT
